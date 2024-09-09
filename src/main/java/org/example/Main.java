@@ -8,7 +8,8 @@ public class Main {
         VideoPlayer video = new VideoPlayer();
 
         MediaController MediaController = new MediaController();
-        MediaController.playMedia(lyrics);
         MediaController.playMedia(video);
+        MediaController.playMedia(lyrics);
+
     }
 }
